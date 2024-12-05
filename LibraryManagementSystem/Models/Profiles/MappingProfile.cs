@@ -12,7 +12,7 @@ namespace LibraryManagementSystem.Models.Profiles
             CreateMap<Member, MemberDetailDto>().ReverseMap();
             CreateMap<Member, MemberListDto>().ReverseMap();
             CreateMap<Library, LibraryDto>().ReverseMap();
-            CreateMap<Loan, LoanDto>().ReverseMap();
+            CreateMap<Loan, LoanDetailDto>().ReverseMap();
         }
     }
 }

@@ -49,7 +49,7 @@ namespace LibraryManagementSystem.Services
             return bookDetailDto;
         }
 
-        public List<LoanDto>? GetLoanHistory(int bookId)
+        public List<LoanDetailDto>? GetLoanHistory(int bookId)
         {
             var isBookHave = ChechkBook(bookId);
             if (isBookHave)

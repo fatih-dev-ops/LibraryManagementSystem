@@ -49,7 +49,7 @@ namespace LibraryManagementSystem.Services
             else return _mapper.Map<MemberDetailDto>(member);
         }
 
-        public List<LoanDto>? GetLoanHistory(int id)
+        public List<LoanDetailDto>? GetLoanHistory(int id)
         {
             var loans = _loanService.GetAll();
             var memberLoans = loans.Select(l => l).Where(l => l.MemberId == id).ToList();
