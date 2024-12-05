@@ -3,8 +3,9 @@ using LibraryManagementSystem.Models.Dtos;
 
 namespace LibraryManagementSystem.Services.Interfaces
 {
-    public interface ILoanService : IBaseService<LoanDto>
+    public interface ILoanService : IBaseService<LoanDetailDto>
     {
-        public List<LoanDto> GetAll();
+        public string? SetLoanState(LoanStateDto loanStateDto);
+        public List<LoanDetailDto> GetAll();
     }
 }

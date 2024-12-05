@@ -7,6 +7,6 @@ namespace LibraryManagementSystem.Services.Interfaces
          public List<MemberListDto> GetAll();
          public MemberDetailDto? GetById(int id);
          public dynamic SetMemberState(MemberDetailDto member);
-         public List<LoanDto>? GetLoanHistory(int id);
+         public List<LoanDetailDto>? GetLoanHistory(int id);
     }
 }

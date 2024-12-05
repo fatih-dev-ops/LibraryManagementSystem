@@ -1,6 +1,6 @@
 ﻿namespace LibraryManagementSystem.Models.Dtos
 {
-    public class LoanDto
+    public class LoanDetailDto
     {
         public int Id { get; set; }
         public int MemberId { get; set; }
@@ -13,7 +13,7 @@
         public string? State { get; set; }
         public double? DelayTime { get; set; }
 
-        public LoanDto()
+        public LoanDetailDto()
         {
             SetDelayTime();
         }

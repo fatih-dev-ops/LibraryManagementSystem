@@ -18,7 +18,7 @@ namespace LibraryManagementSystem.Services
             _mapper = mapper;
         }
 
-        public string Add(LoanDto entity)
+        public string Add(LoanDetailDto entity)
         {
             var result = _loanRepository.Add(_mapper.Map<Loan>(entity));
             return result;
@@ -30,18 +30,28 @@ namespace LibraryManagementSystem.Services
             return _loanRepository.Delete(id);
         }
 
-        public List<LoanDto> GetAll()
+        public List<LoanDetailDto> GetAll()
         {
             var loans = _loanRepository.GetAll();
-            return loans.Select(l => _mapper.Map<LoanDto>(l)).ToList();
+            return loans.Select(l => _mapper.Map<LoanDetailDto>(l)).ToList();
         }
-
-        public List<G> GetAll<G>() where G : class
+        public string? SetLoanState(LoanStateDto loanStateDto)
         {
-            throw new NotImplementedException();
+            var loans = GetAll();
+            var matchedLoan = loans.FirstOrDefault(l => l.Id == loanStateDto.Id && l.ReturnedDate ==null && l.State == "Not Returned" );
+            if (matchedLoan is not null)
+            {
+                matchedLoan.ReturnedDate = loanStateDto.ReturnedDate;
+                matchedLoan.State = loanStateDto.State; 
+                var result = Update(matchedLoan);
+                return result;
+            }
+            else
+            {
+                return $"Lütfen geçerli bir giriniz. Güncellemek istediğiniz loan state'i {matchedLoan?.State}";
+            }
         }
-
-        public string Update(LoanDto entity)
+        public string Update(LoanDetailDto entity)
         {
             return _loanRepository.Update(_mapper.Map<Loan>(entity));
         }
