@@ -1,0 +1,8 @@
+{
+    "Id": 1,
+    "Name": "City Central Library",
+    "Adress": "123 Library Street, Downtown, Springfield",
+    "MailAdress": "contact@citylibrary.com",
+    "TelephoneNumber": "555-1122",
+    "WorkingHours": "Mon-Fri: 9 AM - 6 PM, Sat: 10 AM - 4 PM, Sun: Closed"
+}

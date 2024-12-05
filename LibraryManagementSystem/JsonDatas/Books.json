@@ -1,0 +1,281 @@
+[
+  {
+    "Id": 1,
+    "Name": "The Great Adventure",
+    "Description": "A thrilling tale of courage and discovery.",
+    "PageCount": 350,
+    "Category": "Fiction",
+    "AuthorName": "John Smith",
+    "PrintDate": "2020-03-15T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Name": "History Unveiled",
+    "Description": "Exploring the untold stories of ancient civilizations.",
+    "PageCount": 420,
+    "Category": "History",
+    "AuthorName": "Laura Brown",
+    "PrintDate": "2018-10-20T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Name": "Cooking Made Easy",
+    "Description": "Quick and delicious recipes for busy people.",
+    "PageCount": 250,
+    "Category": "Cooking",
+    "AuthorName": "Sarah Johnson",
+    "PrintDate": "2022-05-10T00:00:00"
+  },
+  {
+    "Id": 4,
+    "Name": "Science for Everyone",
+    "Description": "Understanding complex concepts in simple terms.",
+    "PageCount": 300,
+    "Category": "Science",
+    "AuthorName": "Michael Davis",
+    "PrintDate": "2019-08-14T00:00:00"
+  },
+  {
+    "Id": 5,
+    "Name": "Mysteries of the Universe",
+    "Description": "A deep dive into the unknown aspects of space.",
+    "PageCount": 400,
+    "Category": "Science Fiction",
+    "AuthorName": "Emily Wilson",
+    "PrintDate": "2021-01-22T00:00:00"
+  },
+  {
+    "Id": 6,
+    "Name": "Art Through Ages",
+    "Description": "A journey through the history of art and its evolution.",
+    "PageCount": 270,
+    "Category": "Art",
+    "AuthorName": "Chris Taylor",
+    "PrintDate": "2017-12-05T00:00:00"
+  },
+  {
+    "Id": 7,
+    "Name": "Healthy Living",
+    "Description": "Tips and tricks for a balanced lifestyle.",
+    "PageCount": 320,
+    "Category": "Health",
+    "AuthorName": "Laura Garcia",
+    "PrintDate": "2020-11-30T00:00:00"
+  },
+  {
+    "Id": 8,
+    "Name": "The Last Kingdom",
+    "Description": "An epic saga of power and betrayal.",
+    "PageCount": 530,
+    "Category": "Historical Fiction",
+    "AuthorName": "William Thompson",
+    "PrintDate": "2016-04-25T00:00:00"
+  },
+  {
+    "Id": 9,
+    "Name": "The Coding Manual",
+    "Description": "An essential guide for aspiring programmers.",
+    "PageCount": 450,
+    "Category": "Technology",
+    "AuthorName": "Daniel Martinez",
+    "PrintDate": "2023-02-12T00:00:00"
+  },
+  {
+    "Id": 10,
+    "Name": "Dreams and Realities",
+    "Description": "A collection of inspiring short stories.",
+    "PageCount": 180,
+    "Category": "Fiction",
+    "AuthorName": "Anna Clark",
+    "PrintDate": "2018-09-17T00:00:00"
+  },
+  {
+    "Id": 11,
+    "Name": "The Ancient Gods",
+    "Description": "A deep exploration into the mythologies of the world.",
+    "PageCount": 330,
+    "Category": "Mythology",
+    "AuthorName": "Sophia Harris",
+    "PrintDate": "2022-07-14T00:00:00"
+  },
+  {
+    "Id": 12,
+    "Name": "The Entrepreneur's Guide",
+    "Description": "A step-by-step approach to starting your own business.",
+    "PageCount": 260,
+    "Category": "Business",
+    "AuthorName": "James Rodriguez",
+    "PrintDate": "2020-11-05T00:00:00"
+  },
+  {
+    "Id": 13,
+    "Name": "Revolutionary Ideas",
+    "Description": "Exploring the innovative ideas that changed the world.",
+    "PageCount": 310,
+    "Category": "Non-fiction",
+    "AuthorName": "Olivia Thompson",
+    "PrintDate": "2019-04-18T00:00:00"
+  },
+  {
+    "Id": 14,
+    "Name": "Adventures of a Lifetime",
+    "Description": "Tales of adventure from the world's most daring travelers.",
+    "PageCount": 400,
+    "Category": "Travel",
+    "AuthorName": "Robert White",
+    "PrintDate": "2018-10-30T00:00:00"
+  },
+  {
+    "Id": 15,
+    "Name": "The Art of Design",
+    "Description": "A comprehensive guide to modern design trends.",
+    "PageCount": 220,
+    "Category": "Art & Design",
+    "AuthorName": "Ella Wilson",
+    "PrintDate": "2021-02-28T00:00:00"
+  },
+  {
+    "Id": 16,
+    "Name": "Future of AI",
+    "Description": "How artificial intelligence will shape our world.",
+    "PageCount": 350,
+    "Category": "Technology",
+    "AuthorName": "Benjamin Scott",
+    "PrintDate": "2023-08-19T00:00:00"
+  },
+  {
+    "Id": 17,
+    "Name": "Exploring the Deep Sea",
+    "Description": "A fascinating look at the unexplored depths of our oceans.",
+    "PageCount": 380,
+    "Category": "Science",
+    "AuthorName": "Emma Lewis",
+    "PrintDate": "2020-03-06T00:00:00"
+  },
+  {
+    "Id": 18,
+    "Name": "Secret Garden",
+    "Description": "A novel about discovery, transformation, and hope.",
+    "PageCount": 280,
+    "Category": "Fiction",
+    "AuthorName": "Charlotte Green",
+    "PrintDate": "2017-11-22T00:00:00"
+  },
+  {
+    "Id": 19,
+    "Name": "The Sustainable Future",
+    "Description": "A practical guide to sustainable living.",
+    "PageCount": 220,
+    "Category": "Environment",
+    "AuthorName": "Jason Cooper",
+    "PrintDate": "2022-06-10T00:00:00"
+  },
+  {
+    "Id": 20,
+    "Name": "Tech Innovations",
+    "Description": "How the latest technological advances are changing the world.",
+    "PageCount": 300,
+    "Category": "Technology",
+    "AuthorName": "Isabella Martinez",
+    "PrintDate": "2024-04-17T00:00:00"
+  },
+  {
+    "Id": 21,
+    "Name": "The Last Empire",
+    "Description": "A historical novel about the rise and fall of an ancient empire.",
+    "PageCount": 450,
+    "Category": "Historical Fiction",
+    "AuthorName": "Thomas Harris",
+    "PrintDate": "2021-09-05T00:00:00"
+  },
+  {
+    "Id": 22,
+    "Name": "Journey Through Time",
+    "Description": "A fascinating exploration of the history of time and clocks.",
+    "PageCount": 300,
+    "Category": "Non-fiction",
+    "AuthorName": "Ava Clark",
+    "PrintDate": "2020-04-12T00:00:00"
+  },
+  {
+    "Id": 23,
+    "Name": "The Digital Revolution",
+    "Description": "A deep dive into the evolution of digital technology.",
+    "PageCount": 360,
+    "Category": "Technology",
+    "AuthorName": "Liam Young",
+    "PrintDate": "2023-11-28T00:00:00"
+  },
+  {
+    "Id": 24,
+    "Name": "The Haunted House",
+    "Description": "A spine-chilling tale of a haunted mansion and its secrets.",
+    "PageCount": 200,
+    "Category": "Horror",
+    "AuthorName": "Megan King",
+    "PrintDate": "2019-07-22T00:00:00"
+  },
+  {
+    "Id": 25,
+    "Name": "The Business of Life",
+    "Description": "Strategies and lessons for balancing work and personal life.",
+    "PageCount": 230,
+    "Category": "Self-help",
+    "AuthorName": "Lucas Walker",
+    "PrintDate": "2022-03-15T00:00:00"
+  },
+  {
+    "Id": 26,
+    "Name": "Exploring the Arctic",
+    "Description": "An adventurous account of expeditions to the Arctic region.",
+    "PageCount": 300,
+    "Category": "Travel",
+    "AuthorName": "Olivia Moore",
+    "PrintDate": "2021-05-01T00:00:00"
+  },
+  {
+    "Id": 27,
+    "Name": "Mindfulness for Beginners",
+    "Description": "A practical guide to mindfulness and meditation techniques.",
+    "PageCount": 180,
+    "Category": "Self-help",
+    "AuthorName": "Sophia Davis",
+    "PrintDate": "2020-06-10T00:00:00"
+  },
+  {
+    "Id": 28,
+    "Name": "The Innovator's Mindset",
+    "Description": "How creative thinking and innovation can drive success.",
+    "PageCount": 290,
+    "Category": "Business",
+    "AuthorName": "Ethan White",
+    "PrintDate": "2023-01-18T00:00:00"
+  },
+  {
+    "Id": 29,
+    "Name": "Ocean Mysteries",
+    "Description": "A journey into the unexplored depths of our oceans.",
+    "PageCount": 400,
+    "Category": "Science",
+    "AuthorName": "Charlotte Johnson",
+    "PrintDate": "2019-10-25T00:00:00"
+  },
+  {
+    "Id": 30,
+    "Name": "The Digital Nomad",
+    "Description": "A guide to working remotely and living a flexible lifestyle.",
+    "PageCount": 250,
+    "Category": "Business",
+    "AuthorName": "Mason Adams",
+    "PrintDate": "2022-08-14T00:00:00"
+  },
+  {
+    "Id": 0,
+    "Name": null,
+    "Description": null,
+    "PageCount": 0,
+    "Category": null,
+    "AuthorName": null,
+    "PrintDate": "0001-01-01T00:00:00"
+  }
+]

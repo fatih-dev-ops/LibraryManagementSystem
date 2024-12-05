@@ -1,0 +1,162 @@
+[
+  {
+    "Id": 1,
+    "Name": "John",
+    "Surname": "Doe",
+    "Adress": "123 Elm Street, Springfield",
+    "TelephoneNumber": "555-1234",
+    "State": "Inactive"
+  },
+  {
+    "Id": 2,
+    "Name": "Jane",
+    "Surname": "Smith",
+    "Adress": "456 Oak Avenue, Riverdale",
+    "TelephoneNumber": "555-5678",
+    "State": "Inactive"
+  },
+  {
+    "Id": 3,
+    "Name": "Michael",
+    "Surname": "Johnson",
+    "Adress": "789 Pine Road, Metropolis",
+    "TelephoneNumber": "555-9012",
+    "State": "Active"
+  },
+  {
+    "Id": 4,
+    "Name": "Emily",
+    "Surname": "Davis",
+    "Adress": "321 Maple Drive, Gotham",
+    "TelephoneNumber": "555-3456",
+    "State": "Active"
+  },
+  {
+    "Id": 5,
+    "Name": "David",
+    "Surname": "Brown",
+    "Adress": "654 Cedar Lane, Smallville",
+    "TelephoneNumber": "555-7890",
+    "State": "Inactive"
+  },
+  {
+    "Id": 6,
+    "Name": "Sarah",
+    "Surname": "Wilson",
+    "Adress": "987 Birch Court, Star City",
+    "TelephoneNumber": "555-2345",
+    "State": "Active"
+  },
+  {
+    "Id": 7,
+    "Name": "Chris",
+    "Surname": "Moore",
+    "Adress": "432 Spruce Blvd, Central City",
+    "TelephoneNumber": "555-6789",
+    "State": "Active"
+  },
+  {
+    "Id": 8,
+    "Name": "Laura",
+    "Surname": "Taylor",
+    "Adress": "876 Ash Street, Coast City",
+    "TelephoneNumber": "555-1234",
+    "State": "Inactive"
+  },
+  {
+    "Id": 9,
+    "Name": "James",
+    "Surname": "Anderson",
+    "Adress": "135 Poplar Avenue, Starling City",
+    "TelephoneNumber": "555-5678",
+    "State": "Active"
+  },
+  {
+    "Id": 10,
+    "Name": "Anna",
+    "Surname": "Thomas",
+    "Adress": "246 Fir Lane, Bludhaven",
+    "TelephoneNumber": "555-9012",
+    "State": "Inactive"
+  },
+  {
+    "Id": 11,
+    "Name": "Robert",
+    "Surname": "Jackson",
+    "Adress": "357 Walnut Street, Liberty City",
+    "TelephoneNumber": "555-3456",
+    "State": "Active"
+  },
+  {
+    "Id": 12,
+    "Name": "Olivia",
+    "Surname": "White",
+    "Adress": "468 Chestnut Road, Pallet Town",
+    "TelephoneNumber": "555-7890",
+    "State": "Active"
+  },
+  {
+    "Id": 13,
+    "Name": "Daniel",
+    "Surname": "Harris",
+    "Adress": "579 Willow Blvd, Lavender Town",
+    "TelephoneNumber": "555-2345",
+    "State": "Inactive"
+  },
+  {
+    "Id": 14,
+    "Name": "Sophia",
+    "Surname": "Martin",
+    "Adress": "680 Cypress Court, Pewter City",
+    "TelephoneNumber": "555-6789",
+    "State": "Active"
+  },
+  {
+    "Id": 15,
+    "Name": "William",
+    "Surname": "Thompson",
+    "Adress": "791 Redwood Drive, Cerulean City",
+    "TelephoneNumber": "555-1234",
+    "State": "Active"
+  },
+  {
+    "Id": 16,
+    "Name": "Isabella",
+    "Surname": "Garcia",
+    "Adress": "802 Sequoia Lane, Vermilion City",
+    "TelephoneNumber": "555-5678",
+    "State": "Inactive"
+  },
+  {
+    "Id": 17,
+    "Name": "Henry",
+    "Surname": "Martinez",
+    "Adress": "913 Sycamore Avenue, Saffron City",
+    "TelephoneNumber": "555-9012",
+    "State": "Active"
+  },
+  {
+    "Id": 18,
+    "Name": "Mia",
+    "Surname": "Rodriguez",
+    "Adress": "1024 Elm Street, Celadon City",
+    "TelephoneNumber": "555-3456",
+    "State": "Active"
+  },
+  {
+    "Id": 19,
+    "Name": "Alexander",
+    "Surname": "Lopez",
+    "Adress": "1135 Oak Boulevard, Fuchsia City",
+    "TelephoneNumber": "555-7890",
+    "State": "Inactive"
+  },
+  {
+    "Id": 20,
+    "Name": "Charlotte",
+    "Surname": "Clark",
+    "Adress": "1246 Birch Road, Cinnabar Island",
+    "TelephoneNumber": "555-2345",
+    "State": "Active"
+  }
+]
