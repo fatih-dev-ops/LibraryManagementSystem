@@ -4,7 +4,10 @@ namespace LibraryManagementSystem.Services.Interfaces
 {
     public interface IBookService : IBaseService<BookDetailDto>
     {
-        public List<BookDetailDto> GetAll();
+        public List<BookListDto>? GetAll();
+        public BookDetailDto? GetById(int bookId);
+        public List<LoanDto>? GetLoanHistory(int bookId);
+        public bool  IsAvailableForLoan(int bookId);
 
     }
 }
