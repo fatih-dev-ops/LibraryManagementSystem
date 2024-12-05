@@ -10,18 +10,25 @@
         public DateTime BorrowDate { get; set; }
         public DateTime ReturnDate { get; set; }
         public DateTime? ReturnedDate { get; set; }
-        public string State { get; set; }
+        public string? State { get; set; }
         public double? DelayTime { get; set; }
 
         public LoanDto()
         {
-            if (ReturnedDate is null)
+            SetDelayTime();
+        }
+
+        public void SetDelayTime()
+        {
+            if (ReturnedDate != null)
             {
-                DelayTime = null;
+                DelayTime = ReturnedDate?.Subtract(BorrowDate).TotalDays;
+
             }
             else
             {
-                DelayTime = ReturnedDate?.Subtract(BorrowDate).TotalDays;
+                DelayTime = null;
+
             }
         }
     }

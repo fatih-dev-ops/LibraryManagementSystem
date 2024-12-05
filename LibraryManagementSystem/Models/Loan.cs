@@ -10,7 +10,7 @@
         public DateTime BorrowDate { get; set; }
         public DateTime ReturnDate { get; set; }
         public DateTime? ReturnedDate { get; set; }
-        public string State { get; set; }
+        public string? State { get; set; }
 
     }
 }
