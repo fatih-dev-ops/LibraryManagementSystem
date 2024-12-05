@@ -277,5 +277,23 @@
     "Category": null,
     "AuthorName": null,
     "PrintDate": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 31,
+    "Name": "The Great Adventure",
+    "Description": "A thrilling tale of courage and discovery.",
+    "PageCount": 350,
+    "Category": "Fiction",
+    "AuthorName": "John Smith",
+    "PrintDate": "2020-03-15T00:00:00"
+  },
+  {
+    "Id": 32,
+    "Name": "The Great Adventure",
+    "Description": "A thrilling tale of courage and discovery.",
+    "PageCount": 350,
+    "Category": "Fiction",
+    "AuthorName": "John Smith",
+    "PrintDate": "2020-03-15T00:00:00"
   }
 ]

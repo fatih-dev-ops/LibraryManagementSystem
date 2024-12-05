@@ -7,7 +7,7 @@ namespace LibraryManagementSystem.Services.Interfaces
         public List<BookListDto>? GetAll();
         public BookDetailDto? GetById(int bookId);
         public List<LoanDto>? GetLoanHistory(int bookId);
-        public bool  IsAvailableForLoan(int bookId);
+        public string  IsAvailableForLoan(int bookId);
 
     }
 }

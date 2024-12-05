@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using LibraryManagementSystem.Models;
 using LibraryManagementSystem.Models.Dtos;
 
 namespace LibraryManagementSystem.Models.Profiles
@@ -9,6 +8,7 @@ namespace LibraryManagementSystem.Models.Profiles
         public MappingProfile()
         {
             CreateMap<Book, BookDetailDto>().ReverseMap();
+            CreateMap<Book, BookListDto>().ReverseMap();
             CreateMap<Member, MemberDetailDto>().ReverseMap();
             CreateMap<Member, MemberListDto>().ReverseMap();
             CreateMap<Library, LibraryDto>().ReverseMap();

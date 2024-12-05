@@ -36,6 +36,7 @@ namespace LibraryManagementSystem.Services
             var books = _bookRepository.GetAll()?.Select(b => _mapper.Map<BookListDto>(b)).ToList();
             return books;
         }
+        
         public string Update(BookDetailDto bookDto)
         {
             var result = _bookRepository.Update(_mapper.Map<Book>(bookDto));
@@ -50,23 +51,48 @@ namespace LibraryManagementSystem.Services
 
         public List<LoanDto>? GetLoanHistory(int bookId)
         {
-            var loans = _loanService.GetAll();
-            var bookLoans = loans.Select(l => l).Where(l => l.Id == bookId).ToList();
-            return bookLoans;
+            var isBookHave = ChechkBook(bookId);
+            if (isBookHave)
+            {
+                var loans = _loanService.GetAll();
+                var bookLoans = loans.Select(l => l).Where(l => l.BookId == bookId).ToList();
+                return bookLoans;
+            }
+            else
+            {
+                return null;
+            }
+
         }
 
-        public bool IsAvailableForLoan(int bookId)
+        public string IsAvailableForLoan(int bookId)
         {
-            var bookLoans = GetLoanHistory(bookId);
-            var notReturnedBooks =  bookLoans?.FirstOrDefault(b => b.State == "Not Returned");
-            if (notReturnedBooks is null)
-                return true;
-            else 
-                return false;
+            var isBookHave = ChechkBook(bookId);
+            if (!isBookHave)
+            {
+                return $"There is no book for this id :{bookId}.";
+            }
+            else
+            {
+                var bookLoans = GetLoanHistory(bookId);
+                var notReturnedBooks = bookLoans?.FirstOrDefault(b => b.State == "Not Returned");
+                if (notReturnedBooks is null)
+                    return "This book is available for loan.";
+                else
+                    return "This book is not available for loan.";
+            }
+
         }
 
-
-
-
+        private bool ChechkBook(int bookId)
+        {
+            var isBookHave = GetById(bookId);
+            if (isBookHave is null)
+            {
+                return false;
+            }
+            else
+                return true;
+        }
     }
 }
