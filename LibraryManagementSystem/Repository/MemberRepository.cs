@@ -54,16 +54,25 @@ namespace LibraryManagementSystem.Repository
 
         public string Update(Member entity)
         {
+
             var members = GetAll();
             var matchedIndex = members.FindIndex(m => m.Id == entity.Id);
 
             if (matchedIndex != -1)
             {
-                members[matchedIndex] = entity;
-                WriteFile(members);
-                return "Güncellemek istediğiniz üye başarılı bir şekilde güncellendi";
+                if(entity.State != members[matchedIndex].State || entity.Id != members[matchedIndex].Id)
+                {
+                    return "State durumunu veya id değiştiremezsiniz.";
+                }
+                else
+                {
+                    members[matchedIndex] = entity;
+                    WriteFile(members);
+                    return "Güncellemek istediğiniz üye başarılı bir şekilde güncellendi";
+                }
             }
-            else return "Güncellemek istediğiniz üye bulunamadı.";
+            else 
+                return "Güncellemek istediğiniz üye bulunamadı.";
         }
     }
 }
